@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Video de fondo -->
+  <video autoplay muted loop playsinline id="backgroundVideo">
+    <source src="EkkoyPowder.mp4" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+
+  <!-- Música de fondo -->
+  <audio id="backgroundMusic" loop>
+    <source src="Te Quiero.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <!-- Botón inicial -->
+  <div id="birthdayButtonContainer">
+    <button id="birthdayButton" class="center-button">🎉 ¡Feliz Cumpleaños! 🎉</button>
+  </div>
+
+  <!-- Mensaje de amor -->
+  <div id="loveMessageContainer" class="hidden">
+    <p class="love-message">
+      Nath, mi bb eres una persona increíble, y tenerte en mi vida me llena de felicidad. 
+      En tu día especial, solo quiero desearte lo mejor, porque te mereces todo. <b>¡Feliz cumpleaños hermosa!</b>  
+      Mi mayor deseo es verte siempre feliz, eres muy especial para mi, me encantas mucho preciosa.  
+      ¡Te quiero más de lo que las palabras pueden expresar, mi niña hermosa! 💖
+    </p>
+  </div>
+
+  <button id="audioControl" class="audio-button">🔊</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
